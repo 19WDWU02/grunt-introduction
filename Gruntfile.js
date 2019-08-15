@@ -26,19 +26,19 @@ module.exports = function(grunt) {
         tasks: ['sass', 'cssmin']
       },
       js: {
-        files: ['js/*.js', 'js/!.min.js'],
+        files: ['js/*.js', '!js/*.min.js'],
         tasks: ['jshint', 'uglify']
       }
     },
     uglify:{
         my_target:{
             files: {
-                "js/script.min.js":["js/script.js"]
+                'js/script.min.js':['js/script.js']
             }
         }
     },
     jshint: {
-        files: ["*.js", "js/script.js"],
+        files: ['*.js', 'js/script.js'],
         options: {
             globals:{
                 jQuery: true
