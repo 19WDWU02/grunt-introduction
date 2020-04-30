@@ -23,7 +23,7 @@
   "homepage": "https://github.com/19WDWU02/grunt-introduction#readme",
   "dependencies": {
     "bootstrap": "^4.3.1",
-    "jquery": "^3.4.1"
+    "jquery": "^3.5.0"
   },
   "devDependencies": {
     "grunt": "^1.0.4",
